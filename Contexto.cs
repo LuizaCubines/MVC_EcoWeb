@@ -1,4 +1,6 @@
-using Ecoweb.Models;
+
+
+using Microsoft.EntityFrameworkCore;
 
 namespace EcoWeb.Models{
 
@@ -12,5 +14,9 @@ namespace EcoWeb.Models{
         public DbSet<Usuario> Usuario {get; set;}
 
 
+    }
+
+    public class DbContexto
+    {
     }
 }
