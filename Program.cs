@@ -7,7 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<Contexto>
-  (options => options.UseSqlServer(""));
+  (options => options.UseSqlServer("root@127.0.0.1:3306"));
+  
 
 var app = builder.Build();
 

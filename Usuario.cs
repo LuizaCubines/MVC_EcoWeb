@@ -21,5 +21,8 @@ public class Usuario
     [Column("Email")]
     [Display(Name = "Email")]
     public string Email {get; set;}
+    [Column("Senha")]
+    [Display(Name = "Senha")]
+    public string Senha {get; set;}
     }
 }
